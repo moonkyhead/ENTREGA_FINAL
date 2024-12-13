@@ -15,3 +15,12 @@ def saludar_con_parametros(request, nombre: str, apellido:str):
 
 def index(request):
     return render(request,'core/index.html') 
+
+def Metal(request):
+    return render(request,'core/Metal.html')
+
+def Punk(request):
+    return render(request,'core/Punk.html')
+
+def Rock(request):
+    return render(request,'core/Rock.html')
